@@ -55,18 +55,6 @@ npm run dev
 
 Runs on: http://localhost:3000
 
----
-
-## Environment Variables
-
-Create a .env file inside the backend folder:
-
-MONGO_URI=your_mongodb_uri  
-JWT_SECRET=your_secret  
-PORT=3001  
-FRONTEND_URL=http://localhost:3000  
-
----
 
 ## API Endpoints
 
@@ -113,9 +101,9 @@ Article:
 - blocks[]  
 
 Block:
-- type (text | image)  
-- content (HTML text or image URL)  
-- contentNew (optional image URL)  
+- type 
+- content  
+- contentNew 
 
 ---
 
