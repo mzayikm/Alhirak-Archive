@@ -23,3 +23,9 @@ Internal archive platform for browsing, searching, and filtering historical arti
 cd backend
 npm install
 npm run start:dev
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
